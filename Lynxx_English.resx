@@ -1182,4 +1182,8 @@
   <data name="btnCleanupSettings" xml:space="preserve">
     <value>Settings - Cleanup VRN</value>
   </data>
+  <data name="btnCleanupSettingsTest" xml:space="preserve">
+    <value></value>
+  </data>
+
 </root>
