@@ -1,0 +1,1186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="PageTitleGeneric" xml:space="preserve">
+    <value>Lynxx Parkmobile</value>
+  </data>
+  <data name="ProjectVersionID" xml:space="preserve">
+    <value>3.0.3.4</value>
+  </data>
+  <data name="lbLoginTitle" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="PageTitleLoginPage" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="lbUsername" xml:space="preserve">
+    <value>Username</value>
+  </data>
+  <data name="lbPassword" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="lbLogin" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="lbPageTitleSearch" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="lbSignedInAs" xml:space="preserve">
+    <value>Logged on as:</value>
+  </data>
+  <data name="errorInvalidRequestDate" xml:space="preserve">
+    <value>Invalid search keywords</value>
+  </data>
+  <data name="hlnkorganisatie" xml:space="preserve">
+    <value>Suppliers</value>
+  </data>
+  <data name="hlnkProducts" xml:space="preserve">
+    <value>Products</value>
+  </data>
+  <data name="lnkMenuRapport" xml:space="preserve">
+    <value>Reports</value>
+  </data>
+  <data name="btnSystemMenu" xml:space="preserve">
+    <value>System</value>
+  </data>
+  <data name="btnZoeken" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="hlnkSupplierDetails" xml:space="preserve">
+    <value>Supplier</value>
+  </data>
+  <data name="hlnkSupplierAccounts" xml:space="preserve">
+    <value>Account</value>
+  </data>
+  <data name="btnProduct" xml:space="preserve">
+    <value>Product</value>
+  </data>
+  <data name="hlnkZonegroup" xml:space="preserve">
+    <value>Zonegroup</value>
+  </data>
+  <data name="hlnkZone" xml:space="preserve">
+    <value>Zone</value>
+  </data>
+  <data name="hlnkTarieven" xml:space="preserve">
+    <value>Tariff codes</value>
+  </data>
+  <data name="lnkSpecialDays" xml:space="preserve">
+    <value>Special days</value>
+  </data>
+  <data name="lnkRapportHandhaving" xml:space="preserve">
+    <value>Enforcement</value>
+  </data>
+  <data name="lnkRapportSuppliers" xml:space="preserve">
+    <value>Parkingrights</value>
+  </data>
+  <data name="lnkRapportFiles" xml:space="preserve">
+    <value>PCH Handhaving bestanden</value>
+  </data>
+  <data name="lnkPchFilesMenu" xml:space="preserve">
+    <value>PCH Parkeerrecht bestanden</value>
+  </data>
+  <data name="btnRoleManagement" xml:space="preserve">
+    <value>User roles</value>
+  </data>
+  <data name="btnAlerts" xml:space="preserve">
+    <value>Alerts</value>
+  </data>
+  <data name="btnServices" xml:space="preserve">
+    <value>Servicejobs</value>
+  </data>
+  <data name="btnPwd" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="btnSearchMenu" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="hlLogoff" xml:space="preserve">
+    <value>Log off</value>
+  </data>
+  <data name="btnEdit" xml:space="preserve">
+    <value>&lt;IMG class=&quot;button_edit&quot; alt=&quot;edit&quot;  border=&quot;0&quot;  height=&quot;18&quot; src=&quot;../../img/system/spacer.gif&quot; width=&quot;18&quot;&gt;edit</value>
+  </data>
+  <data name="btnSave" xml:space="preserve">
+    <value>&lt;IMG class=&quot;button_save&quot;  alt=&quot;save&quot; height=&quot;18&quot; border=&quot;0&quot;  src=&quot;../../img/system/spacer.gif&quot; width=&quot;18&quot;&gt;save</value>
+  </data>
+  <data name="btnCancel" xml:space="preserve">
+    <value>&lt;IMG class=&quot;button_cancel&quot;  alt=&quot;cancel&quot; height=&quot;18&quot; border=&quot;0&quot;  src=&quot;../../img/system/spacer.gif&quot; width=&quot;18&quot;&gt;cancel</value>
+  </data>
+  <data name="btnClose" xml:space="preserve">
+    <value>&lt;IMG class=&quot;button_back&quot;  alt=&quot;close&quot; height=&quot;18&quot; border=&quot;0&quot; src=&quot;../../img/system/spacer.gif&quot; width=&quot;18&quot;&gt;close</value>
+  </data>
+  <data name="btnAdd" xml:space="preserve">
+    <value>&lt;IMG class=&quot;button_plus&quot;  alt=&quot;add&quot;  height=&quot;18&quot; border=&quot;0&quot; src=&quot;../../img/system/spacer.gif&quot; width=&quot;18&quot;&gt;add</value>
+  </data>
+  <data name="btnCopy" xml:space="preserve">
+    <value>&lt;IMG class=&quot;button_copy&quot; border=&quot;0&quot;  alt=&quot;copy&quot; height=&quot;18&quot; src=&quot;../../img/system/spacer.gif&quot; width=&quot;18&quot;&gt;copy</value>
+  </data>
+  <data name="btnSearch" xml:space="preserve">
+    <value>&lt;IMG class=&quot;button_search&quot;  alt=&quot;search&quot; height=&quot;18&quot; border=&quot;0&quot; src=&quot;../../img/system/spacer.gif&quot; width=&quot;18&quot;&gt;search</value>
+  </data>
+  <data name="btnSearchArchive" xml:space="preserve">
+    <value>&lt;IMG class=&quot;button_search&quot; height=&quot;18&quot;  alt=&quot;search in archive&quot; border=&quot;0&quot; src=&quot;../../img/system/spacer.gif&quot; width=&quot;18&quot;&gt;search archive</value>
+  </data>
+  <data name="btnBack" xml:space="preserve">
+    <value>&lt;IMG class=&quot;button_back&quot; height=&quot;18&quot;  alt=&quot;back&quot; border=&quot;0&quot; src=&quot;../../img/system/spacer.gif&quot; width=&quot;18&quot;&gt;back</value>
+  </data>
+  <data name="btnDelete" xml:space="preserve">
+    <value>&lt;IMG class=&quot;button_back&quot; height=&quot;18&quot;  alt=&quot;delete&quot; border=&quot;0&quot; src=&quot;../../img/system/spacer.gif&quot; width=&quot;18&quot;&gt;delete</value>
+  </data>
+  <data name="lbSearch" xml:space="preserve">
+    <value>Search:</value>
+  </data>
+  <data name="lbType" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="lbName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="lbParkingrightID" xml:space="preserve">
+    <value>Parking right ID</value>
+  </data>
+  <data name="lbTimeKost" xml:space="preserve">
+    <value>Time/ Cost</value>
+  </data>
+  <data name="lbStartDate" xml:space="preserve">
+    <value>Start date</value>
+  </data>
+  <data name="lbEndDate" xml:space="preserve">
+    <value>End date</value>
+  </data>
+  <data name="lbCost" xml:space="preserve">
+    <value>Cost</value>
+  </data>
+  <data name="lbValue" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="lbSupplier" xml:space="preserve">
+    <value>Supplier</value>
+  </data>
+  <data name="lbDateCreated" xml:space="preserve">
+    <value>Date Created</value>
+  </data>
+  <data name="lbVehicleCard" xml:space="preserve">
+    <value>Vehicle/Card</value>
+  </data>
+  <data name="lbVrn" xml:space="preserve">
+    <value>VRN</value>
+  </data>
+  <data name="lbIdentifier" xml:space="preserve">
+    <value>Identification</value>
+  </data>
+  <data name="lbBarcode" xml:space="preserve">
+    <value>Barcode</value>
+  </data>
+  <data name="lbEnforcementMSG" xml:space="preserve">
+    <value>Enforcement</value>
+  </data>
+  <data name="lbEnforcementUser" xml:space="preserve">
+    <value>Enforcement user</value>
+  </data>
+  <data name="lbOrganisation" xml:space="preserve">
+    <value>Organisation</value>
+  </data>
+  <data name="lbHandHeld" xml:space="preserve">
+    <value>Handheld</value>
+  </data>
+  <data name="lbControl" xml:space="preserve">
+    <value>Enforcement scan</value>
+  </data>
+  <data name="lbTime" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="lbFoundParkingright" xml:space="preserve">
+    <value>Found parkingright</value>
+  </data>
+  <data name="lbTypeOfParkingright" xml:space="preserve">
+    <value>Type of found parkingright</value>
+  </data>
+  <data name="lbVouchers" xml:space="preserve">
+    <value>Vouchers</value>
+  </data>
+  <data name="lbTypeOrSupplier" xml:space="preserve">
+    <value>Type or Supplier</value>
+  </data>
+  <data name="lbSource" xml:space="preserve">
+    <value>Source</value>
+  </data>
+  <data name="lbLocationOrBlock" xml:space="preserve">
+    <value>Location/Zone</value>
+  </data>
+  <data name="lbNumberOfResults" xml:space="preserve">
+    <value>Number of results: #1</value>
+  </data>
+  <data name="lbNotValid" xml:space="preserve">
+    <value>&lt;img src=&quot;../../img/system/status_expired.gif&quot; width=&quot;15&quot; height=&quot;15&quot; hspace=&quot;0&quot; vspace=&quot;0&quot; border=&quot;0&quot; align=&quot;absmiddle&quot;&gt; &lt;span class=&quot;style1&quot;&gt;No valid parkingright&lt;/span&gt;</value>
+  </data>
+  <data name="lbError" xml:space="preserve">
+    <value>&lt;img src=&quot;../../img/system/status_inuse.gif&quot; width=&quot;15&quot; height=&quot;15&quot; hspace=&quot;0&quot; vspace=&quot;0&quot; border=&quot;0&quot; align=&quot;absmiddle&quot;&gt; &lt;span class=&quot;style1&quot;&gt;Error in processing&lt;/span&gt;</value>
+  </data>
+  <data name="lbStreet" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="lbEnforcer" xml:space="preserve">
+    <value>Parking attendant</value>
+  </data>
+  <data name="tabRelZoneGr" xml:space="preserve">
+    <value>Zonegroups</value>
+  </data>
+  <data name="tabZoneSel" xml:space="preserve">
+    <value>Zones</value>
+  </data>
+  <data name="tabTimeTable" xml:space="preserve">
+    <value>Time table</value>
+  </data>
+  <data name="tabRelProd" xml:space="preserve">
+    <value>Products</value>
+  </data>
+  <data name="tabZonegroupSel" xml:space="preserve">
+    <value>Zonegroups</value>
+  </data>
+  <data name="tabPricing" xml:space="preserve">
+    <value>Pricing</value>
+  </data>
+  <data name="tabVehicle" xml:space="preserve">
+    <value>Vehicle</value>
+  </data>
+  <data name="tabLocation" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="tabEnforcer" xml:space="preserve">
+    <value>PA</value>
+  </data>
+  <data name="lbErrorMessage_NoValidInput" xml:space="preserve">
+    <value>Missing valid input</value>
+  </data>
+  <data name="lbParkingright" xml:space="preserve">
+    <value>Parkingright</value>
+  </data>
+  <data name="lbEnforcementMsgSearchOverview" xml:space="preserve">
+    <value>Enforcement</value>
+  </data>
+  <data name="PageTitlePassword" xml:space="preserve">
+    <value>Change password</value>
+  </data>
+  <data name="lbPassword1" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="lbPassword2" xml:space="preserve">
+    <value>Repeat password</value>
+  </data>
+  <data name="lbPageTitleZone" xml:space="preserve">
+    <value>Zones</value>
+  </data>
+  <data name="lbPageTitleZoneDetails" xml:space="preserve">
+    <value>Zone Details</value>
+  </data>
+  <data name="lbPageTitleZoneGroup" xml:space="preserve">
+    <value>Zonegroups</value>
+  </data>
+  <data name="lbPageTitleZoneGroupDetails" xml:space="preserve">
+    <value>Zonegroup Details</value>
+  </data>
+  <data name="lbPageTitleProductDetails" xml:space="preserve">
+    <value>Product Details</value>
+  </data>
+  <data name="lbPageTitleProducts" xml:space="preserve">
+    <value>Products</value>
+  </data>
+  <data name="lbPageTitleSpecialdays" xml:space="preserve">
+    <value>Special days, streetparking</value>
+  </data>
+  <data name="lbPageTitleTarifCodes" xml:space="preserve">
+    <value>Tarif codes</value>
+  </data>
+  <data name="lbPageTitleEnforcementRapp" xml:space="preserve">
+    <value>Enforcement reports</value>
+  </data>
+  <data name="lbPageTitlePchFiles" xml:space="preserve">
+    <value>Report files</value>
+  </data>
+  <data name="lbPageTitleDayReports" xml:space="preserve">
+    <value>Dayreport parkingrights</value>
+  </data>
+  <data name="lbPageTitleRoleManagment" xml:space="preserve">
+    <value>Role Management</value>
+  </data>
+  <data name="lbPageTitleServiceDetails" xml:space="preserve">
+    <value>Service Details</value>
+  </data>
+  <data name="lbPageTitleServiceHistory" xml:space="preserve">
+    <value>Service History</value>
+  </data>
+  <data name="lbPageTitleServices" xml:space="preserve">
+    <value>Services</value>
+  </data>
+  <data name="lbPageTitleAlerts" xml:space="preserve">
+    <value>Alerts</value>
+  </data>
+  <data name="lbPageTitleAccountDetails" xml:space="preserve">
+    <value>Account Details</value>
+  </data>
+  <data name="lbPageTitleAccounts" xml:space="preserve">
+    <value>Accounts</value>
+  </data>
+  <data name="lbPageTitleSupplierDetails" xml:space="preserve">
+    <value>Supplier details</value>
+  </data>
+  <data name="lbPageTitleSupplierSettings" xml:space="preserve">
+    <value>Supplier settings</value>
+  </data>
+  <data name="typelist_alles" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="HelpTitleAccountDetails" xml:space="preserve">
+    <value>Account Details</value>
+  </data>
+  <data name="lbIsLocked" xml:space="preserve">
+    <value>Locked</value>
+  </data>
+  <data name="lbIsEnabled" xml:space="preserve">
+    <value>Enabled</value>
+  </data>
+  <data name="lbEmail" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="lbRole" xml:space="preserve">
+    <value>Role</value>
+  </data>
+  <data name="lbInits" xml:space="preserve">
+    <value>Initials</value>
+  </data>
+  <data name="lbMobileNumber" xml:space="preserve">
+    <value>Mobile number</value>
+  </data>
+  <data name="lbRepeatPassword" xml:space="preserve">
+    <value>Repeat password</value>
+  </data>
+  <data name="lbLastname" xml:space="preserve">
+    <value>Achternaam</value>
+  </data>
+  <data name="btnChange" xml:space="preserve">
+    <value>Change</value>
+  </data>
+  <data name="lbFirstName" xml:space="preserve">
+    <value>Firstname</value>
+  </data>
+  <data name="errorInvalidUsername" xml:space="preserve">
+    <value>Invalid username</value>
+  </data>
+  <data name="errorInvalidSecondPassword" xml:space="preserve">
+    <value>Your confirmation password does not match the original password. Please try again</value>
+  </data>
+  <data name="alternateTextRequiredField" xml:space="preserve">
+    <value>required field</value>
+  </data>
+  <data name="lbCosts" xml:space="preserve">
+    <value>Costs</value>
+  </data>
+  <data name="lbSubcriptioName" xml:space="preserve">
+    <value>Subscription name</value>
+  </data>
+  <data name="lbSubcriptionType" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="lbSubscriptionPeriod" xml:space="preserve">
+    <value>Period</value>
+  </data>
+  <data name="lbSubscriptionAddress" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="lbAlert" xml:space="preserve">
+    <value>Alert</value>
+  </data>
+  <data name="lbDescription" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="lbOptions" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="lbRoleName" xml:space="preserve">
+    <value>Rolename</value>
+  </data>
+  <data name="HelpTitleSupplierDetails" xml:space="preserve">
+    <value>Supplier Details</value>
+  </data>
+  <data name="lbSupplierName" xml:space="preserve">
+    <value>Supplier name</value>
+  </data>
+  <data name="lbSupplierPhone" xml:space="preserve">
+    <value>Phonenumber</value>
+  </data>
+  <data name="lbSupplierType" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="lbSupplierExtraField" xml:space="preserve">
+    <value>Debitor code</value>
+  </data>
+  <data name="HelpTitleSupplierEnforcementCodes" xml:space="preserve">
+    <value>Supplier codes</value>
+  </data>
+  <data name="lbSupplierCode" xml:space="preserve">
+    <value>Supplier code</value>
+  </data>
+  <data name="HelpTitleProductDetails" xml:space="preserve">
+    <value>Product Details</value>
+  </data>
+  <data name="lbProductCode" xml:space="preserve">
+    <value>Product code</value>
+  </data>
+  <data name="lbFinancialCode" xml:space="preserve">
+    <value>Extra code</value>
+  </data>
+  <data name="lbProductType" xml:space="preserve">
+    <value>Product type</value>
+  </data>
+  <data name="lbUseActivation" xml:space="preserve">
+    <value>Uses activation</value>
+  </data>
+  <data name="btnProductOverview" xml:space="preserve">
+    <value>&lt;IMG class=&quot;button_up&quot; height=&quot;18&quot; src=&quot;../../img/system/spacer.gif&quot; width=&quot;18&quot;/&gt;Product overview</value>
+  </data>
+  <data name="HelpTitleProductList" xml:space="preserve">
+    <value>Overview products</value>
+  </data>
+  <data name="HelpTitleProductPricing" xml:space="preserve">
+    <value>Priceing information</value>
+  </data>
+  <data name="lbVAT" xml:space="preserve">
+    <value>VAT</value>
+  </data>
+  <data name="lbPutOn" xml:space="preserve">
+    <value>Put on</value>
+  </data>
+  <data name="lbPeriod" xml:space="preserve">
+    <value>Period</value>
+  </data>
+  <data name="HelpTitleZoneGroupSelection" xml:space="preserve">
+    <value>Zonegroup selection</value>
+  </data>
+  <data name="lbSelectedZoneGroups" xml:space="preserve">
+    <value>Selected zonegroup</value>
+  </data>
+  <data name="lbUnSelectedZoneGroups" xml:space="preserve">
+    <value>Other zonegroups</value>
+  </data>
+  <data name="btnSelect" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="btnUnselect" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="HelpTitlePrimairyContact" xml:space="preserve">
+    <value>Primairy Contact</value>
+  </data>
+  <data name="HelpTitleRelatedZonegroups" xml:space="preserve">
+    <value>Related zonegroups</value>
+  </data>
+  <data name="lbMaxParkingTime" xml:space="preserve">
+    <value>Max Parking Time</value>
+  </data>
+  <data name="lbZonegroupType" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="HelpTitleServiceHistory" xml:space="preserve">
+    <value>Service history</value>
+  </data>
+  <data name="lbFrom" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="lbTill" xml:space="preserve">
+    <value>Till</value>
+  </data>
+  <data name="lbDate" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="lbMessage" xml:space="preserve">
+    <value>Message</value>
+  </data>
+  <data name="lbServiceJobDetails" xml:space="preserve">
+    <value>ServiceJob Details</value>
+  </data>
+  <data name="lbJobName" xml:space="preserve">
+    <value>Jobname</value>
+  </data>
+  <data name="lbNextRunDate" xml:space="preserve">
+    <value>Next run date</value>
+  </data>
+  <data name="lbAssemblyPath" xml:space="preserve">
+    <value>Assembly path</value>
+  </data>
+  <data name="lbJobStatus" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="lbAutoStart" xml:space="preserve">
+    <value>Autostart</value>
+  </data>
+  <data name="lbAssemblyClass" xml:space="preserve">
+    <value>Assembly class</value>
+  </data>
+  <data name="lbRecurringHour" xml:space="preserve">
+    <value>Recurring hour</value>
+  </data>
+  <data name="lbDayOfMonth" xml:space="preserve">
+    <value>Day of month</value>
+  </data>
+  <data name="lbRecurringMinute" xml:space="preserve">
+    <value>Recurring minute</value>
+  </data>
+  <data name="lbDayOfWeek" xml:space="preserve">
+    <value>Day of week</value>
+  </data>
+  <data name="lbRecurringSeconds" xml:space="preserve">
+    <value>Recurring second</value>
+  </data>
+  <data name="lbServiceJobServer" xml:space="preserve">
+    <value>Service job server</value>
+  </data>
+  <data name="HelpTitleServiceJobs" xml:space="preserve">
+    <value>Service Jobs</value>
+  </data>
+  <data name="lbHistory" xml:space="preserve">
+    <value>History</value>
+  </data>
+  <data name="HelpTitleSpecialDays" xml:space="preserve">
+    <value>Special days streetparking</value>
+  </data>
+  <data name="lbDateDay" xml:space="preserve">
+    <value>Date Day</value>
+  </data>
+  <data name="lbDateFormat" xml:space="preserve">
+    <value>dd-mm-yyyy</value>
+  </data>
+  <data name="lbActions" xml:space="preserve">
+    <value>actions</value>
+  </data>
+  <data name="lbSystemCode" xml:space="preserve">
+    <value>System code</value>
+  </data>
+  <data name="lbConnectedUser" xml:space="preserve">
+    <value>Connected user</value>
+  </data>
+  <data name="HelpTitleSupplierCodes" xml:space="preserve">
+    <value>Supplier system code</value>
+  </data>
+  <data name="lbUser" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="HelpTitleTarifCodes" xml:space="preserve">
+    <value>Straat parkeren tarief codes</value>
+  </data>
+  <data name="lbCode" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="lbCreated" xml:space="preserve">
+    <value>Aangemaakt</value>
+  </data>
+  <data name="lbPCNVar" xml:space="preserve">
+    <value>NHA var</value>
+  </data>
+  <data name="lbPCNfixed" xml:space="preserve">
+    <value>NHA vast</value>
+  </data>
+  <data name="HelpTitleRoleDetails" xml:space="preserve">
+    <value>Rol details</value>
+  </data>
+  <data name="lbRightCreate" xml:space="preserve">
+    <value>aanmaken</value>
+  </data>
+  <data name="lbRightRead" xml:space="preserve">
+    <value>lezen</value>
+  </data>
+  <data name="lbRightChange" xml:space="preserve">
+    <value>wijzig</value>
+  </data>
+  <data name="lbRightDelete" xml:space="preserve">
+    <value>verwijder</value>
+  </data>
+  <data name="lbAssignedPermissions" xml:space="preserve">
+    <value>Toegewezen permissies</value>
+  </data>
+  <data name="lbZoneCode" xml:space="preserve">
+    <value>Zone code</value>
+  </data>
+  <data name="lbIncomeCode" xml:space="preserve">
+    <value>Incomecode</value>
+  </data>
+  <data name="HelpTitleZoneDetails" xml:space="preserve">
+    <value>Zone info</value>
+  </data>
+  <data name="HelpTitleZoneGroup" xml:space="preserve">
+    <value>Zonegroup Info</value>
+  </data>
+  <data name="lbZoneGroup" xml:space="preserve">
+    <value>zonegroup name</value>
+  </data>
+  <data name="lbFinancialCodeZone" xml:space="preserve">
+    <value>Extra code</value>
+  </data>
+  <data name="lbTarifCode" xml:space="preserve">
+    <value>Tarif code</value>
+  </data>
+  <data name="lbMaxParkingTimeMinutes" xml:space="preserve">
+    <value>Max parkingtime(#)</value>
+  </data>
+  <data name="lbNoReturnTimeMinutes" xml:space="preserve">
+    <value>No return time (min)</value>
+  </data>
+  <data name="lbZoneEnabled" xml:space="preserve">
+    <value>Enabled</value>
+  </data>
+  <data name="lbMinParkingTimeMinutes" xml:space="preserve">
+    <value>Min. parking time (min)</value>
+  </data>
+  <data name="lbMultipleDays" xml:space="preserve">
+    <value>Maximum duration</value>
+  </data>
+  <data name="lbIncrementAmount" xml:space="preserve">
+    <value>Increment amount (pence)</value>
+  </data>
+  <data name="lbVATPercentage" xml:space="preserve">
+    <value>VAT percentage (%)</value>
+  </data>
+  <data name="lbMaxAmountCent" xml:space="preserve">
+    <value>Max. amount (pence)</value>
+  </data>
+  <data name="lbMinAmountCent" xml:space="preserve">
+    <value>Min. amount (pence)</value>
+  </data>
+  <data name="HelpTitleRelatedProducts" xml:space="preserve">
+    <value>Related products</value>
+  </data>
+  <data name="lbProduct" xml:space="preserve">
+    <value>Product</value>
+  </data>
+  <data name="HelpTitleZoneSelection" xml:space="preserve">
+    <value>Zonegroup selection</value>
+  </data>
+  <data name="lbNoParkingAllowed" xml:space="preserve">
+    <value>Parking not allowed</value>
+  </data>
+  <data name="HelpTitleTimeTable" xml:space="preserve">
+    <value>Time table</value>
+  </data>
+  <data name="lbDay" xml:space="preserve">
+    <value>Day</value>
+  </data>
+  <data name="lbStartTime" xml:space="preserve">
+    <value>Start time</value>
+  </data>
+  <data name="lbEndTime" xml:space="preserve">
+    <value>End time</value>
+  </data>
+  <data name="HelpTitleTimeTarifTable" xml:space="preserve">
+    <value>Time and tarif table</value>
+  </data>
+  <data name="lbTarifs" xml:space="preserve">
+    <value>Tarifs</value>
+  </data>
+  <data name="lbPeriodStartMinutes" xml:space="preserve">
+    <value>Period Start (min)</value>
+  </data>
+  <data name="lbPeriodEndMinutes" xml:space="preserve">
+    <value>Period End (min)</value>
+  </data>
+  <data name="lbPeriodTarif" xml:space="preserve">
+    <value>Tarif (per hour)</value>
+  </data>
+  <data name="lbAdditionalCosts" xml:space="preserve">
+    <value>Additonal costs</value>
+  </data>
+  <data name="btnZoneView" xml:space="preserve">
+    <value>Zone overview</value>
+  </data>
+  <data name="lbZone" xml:space="preserve">
+    <value>Zone</value>
+  </data>
+  <data name="lbPages" xml:space="preserve">
+    <value>Pages</value>
+  </data>
+  <data name="lbTitle" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="lbNoReturnTime" xml:space="preserve">
+    <value>No Return Time (min)</value>
+  </data>
+  <data name="lbIncrementFee" xml:space="preserve">
+    <value>Increment fee (pence)</value>
+  </data>
+  <data name="lbVrnForeignVrn" xml:space="preserve">
+    <value>Foreign VRN</value>
+  </data>
+  <data name="lbIsIdentifier" xml:space="preserve">
+    <value>Cardnumber</value>
+  </data>
+  <data name="lbStartDateRecord" xml:space="preserve">
+    <value>Date start</value>
+  </data>
+  <data name="lnkRapportZoneList" xml:space="preserve">
+    <value>Download zonelist</value>
+  </data>
+  <data name="lbStartFee" xml:space="preserve">
+    <value>Start fee</value>
+  </data>
+  <data name="lbSetting" xml:space="preserve">
+    <value>Setting</value>
+  </data>
+  <data name="lbSettingObject" xml:space="preserve">
+    <value>Object</value>
+  </data>
+  <data name="hlnkSupplierSettings" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="DayTypeEnum_1" xml:space="preserve">
+    <value>Monday</value>
+  </data>
+  <data name="DayTypeEnum_2" xml:space="preserve">
+    <value>Tuesday</value>
+  </data>
+  <data name="DayTypeEnum_3" xml:space="preserve">
+    <value>Wednesday</value>
+  </data>
+  <data name="DayTypeEnum_4" xml:space="preserve">
+    <value>Thursday</value>
+  </data>
+  <data name="DayTypeEnum_5" xml:space="preserve">
+    <value>Friday</value>
+  </data>
+  <data name="DayTypeEnum_6" xml:space="preserve">
+    <value>Saturday</value>
+  </data>
+  <data name="DayTypeEnum_7" xml:space="preserve">
+    <value>Sunday</value>
+  </data>
+  <data name="DayTypeEnum_8" xml:space="preserve">
+    <value>Special Day</value>
+  </data>
+  <data name="DayTypeEnum_9" xml:space="preserve">
+    <value>MO-FRI</value>
+  </data>
+  <data name="DayTypeEnum_10" xml:space="preserve">
+    <value>Every day</value>
+  </data>
+  <data name="DayTypeEnum_11" xml:space="preserve">
+    <value>Weekend</value>
+  </data>
+  <data name="lbCmdDuration" xml:space="preserve">
+    <value>Parkingduration is required</value>
+  </data>
+  <data name="lbCmdStop" xml:space="preserve">
+    <value>Parkingaction is stopable</value>
+  </data>
+  <data name="lblLoginFailed" xml:space="preserve">
+    <value>Invalid username/password</value>
+  </data>
+  <data name="ZonegroupTypeEnum_1" xml:space="preserve">
+    <value>Parkingrights</value>
+  </data>
+  <data name="ZonegroupTypeEnum_2" xml:space="preserve">
+    <value>Streetparking</value>
+  </data>
+  <data name="ZonegroupTypeEnum_3" xml:space="preserve">
+    <value>Enforcement</value>
+  </data>
+  <data name="lbSupplierTimeZone" xml:space="preserve">
+    <value>Time Zone</value>
+  </data>
+  <data name="lbCustomCalculator" xml:space="preserve">
+    <value>Custom Calculator</value>
+  </data>
+  <data name="lbPriceCalcType" xml:space="preserve">
+    <value>Price Calc. Type</value>
+  </data>
+  <data name="lbTimeRecordType" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="TimeRecordRateTypeEnum_1" xml:space="preserve">
+    <value>Block Rate</value>
+  </data>
+  <data name="TimeRecordRateTypeEnum_2" xml:space="preserve">
+    <value>Cross Day</value>
+  </data>
+  <data name="TimeRecordRateTypeEnum_3" xml:space="preserve">
+    <value>Flat Rate</value>
+  </data>
+  <data name="TimeRecordRateTypeEnum_4" xml:space="preserve">
+    <value>Multi Rate</value>
+  </data>
+  <data name="TimeRecordRateTypeEnum_5" xml:space="preserve">
+    <value>Shoppers Rate</value>
+  </data>
+  <data name="DayTypeEnum_12" xml:space="preserve">
+    <value>MO-SA</value>
+  </data>
+  <data name="btnSearchLog" xml:space="preserve">
+    <value>Search AuditLog</value>
+  </data>
+  <data name="lbPageTitleSearchLog" xml:space="preserve">
+    <value>Search Log</value>
+  </data>
+  <data name="headerSearchDate" xml:space="preserve">
+    <value>Search date</value>
+  </data>
+  <data name="headerType" xml:space="preserve">
+    <value>Search type</value>
+  </data>
+  <data name="headerLogMessage" xml:space="preserve">
+    <value>Log</value>
+  </data>
+  <data name="headerResultCount" xml:space="preserve">
+    <value>#Results</value>
+  </data>
+  <data name="validator_datePeriodLowerBound" xml:space="preserve">
+    <value>Please select a valid date between #1 and #2</value>
+  </data>
+  <data name="validator_datePeriodUpperBound" xml:space="preserve">
+    <value>Please select a valid date between #1 and #2</value>
+  </data>
+  <data name="validator_daySearchPicker" xml:space="preserve">
+    <value>Please select a valid date between #1 and #2</value>
+  </data>
+  <data name="lbPeriodUnit" xml:space="preserve">
+    <value>Unit of period</value>
+  </data>
+  <data name="lbPeriodStart" xml:space="preserve">
+    <value>Lowerbound</value>
+  </data>
+  <data name="lbPeriodEnd" xml:space="preserve">
+    <value>Upperbound</value>
+  </data>
+  <data name="BoundUnitTypeEnum_1" xml:space="preserve">
+    <value>Minutes</value>
+  </data>
+  <data name="BoundUnitTypeEnum_2" xml:space="preserve">
+    <value>Hours</value>
+  </data>
+  <data name="BoundUnitTypeEnum_3" xml:space="preserve">
+    <value>Days</value>
+  </data>
+  <data name="BoundUnitTypeEnum_4" xml:space="preserve">
+    <value>Minutes/Cent</value>
+  </data>
+  <data name="lbAccumulatedTime" xml:space="preserve">
+    <value>Total previous time</value>
+  </data>
+  <data name="lbAccumulatedFee" xml:space="preserve">
+    <value>Total previous fee (cents)</value>
+  </data>
+  <data name="lbPeriodUnit_AccTime" xml:space="preserve">
+    <value>Time Unit</value>
+  </data>
+  <data name="HelpTitleTimeTableCustom" xml:space="preserve">
+    <value>Custom Pricing Calculator</value>
+  </data>
+  <data name="lbColor" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="lbMake" xml:space="preserve">
+    <value>Make</value>
+  </data>
+  <data name="lbModel" xml:space="preserve">
+    <value>Model</value>
+  </data>
+  <data name="lbSearchZone" xml:space="preserve">
+    <value>Zone</value>
+  </data>
+  <data name="tabBatchInsertZones" xml:space="preserve">
+    <value>New Zones insert</value>
+  </data>
+  <data name="lbPageTitleCalculationTester" xml:space="preserve">
+    <value>Test price configuration</value>
+  </data>
+  <data name="lnkTestPriceConfiguration" xml:space="preserve">
+    <value>Test price configuration</value>
+  </data>
+  <data name="btnPriceConfiguration" xml:space="preserve">
+    <value>Price configuration</value>
+  </data>
+  <data name="lblCalculatedPriceLabel" xml:space="preserve">
+    <value>Price :</value>
+  </data>
+  <data name="lblEndTimeLabel" xml:space="preserve">
+    <value>End time:</value>
+  </data>
+  <data name="lblMaxEndTimeLabel" xml:space="preserve">
+    <value>Max. end time :</value>
+  </data>
+  <data name="lblMaxEndTimeReasonLabel" xml:space="preserve">
+    <value>Reason max. end time :</value>
+  </data>
+  <data name="lblParkedMinutesLabel" xml:space="preserve">
+    <value>Parked time (min) :</value>
+  </data>
+  <data name="lblPayedMinutesLabel" xml:space="preserve">
+    <value>Payed time (min) :</value>
+  </data>
+  <data name="lblHoursAndMinutes" xml:space="preserve">
+    <value>{0} hours and {1} min.</value>
+  </data>
+  <data name="lblNoProductZonegroupZoneConection" xml:space="preserve">
+    <value>No product-zonegroup-zone conection could be found for this zonegroup, setup all relations first.</value>
+  </data>
+  <data name="lblResults" xml:space="preserve">
+    <value>Results</value>
+  </data>
+  <data name="lblEndOfPaidParking" xml:space="preserve">
+    <value>End of paid parking</value>
+  </data>
+  <data name="lblMaximumParkingDuration" xml:space="preserve">
+    <value>Maximum parking duration</value>
+  </data>
+  <data name="lblNotAnParkingBlock" xml:space="preserve">
+    <value>Not an parking block</value>
+  </data>
+  <data name="lblEndOfTheDay" xml:space="preserve">
+    <value>End of the day</value>
+  </data>
+  <data name="lblDateIsAMandatoryField" xml:space="preserve">
+    <value>Date is a mandatory field</value>
+  </data>
+  <data name="lbl1Hour" xml:space="preserve">
+    <value>1 hour</value>
+  </data>
+  <data name="lbl3Minutes" xml:space="preserve">
+    <value>3 minutes</value>
+  </data>
+  <data name="lbl5Minutes" xml:space="preserve">
+    <value>5 minutes</value>
+  </data>
+  <data name="lbl10Minutes" xml:space="preserve">
+    <value>10 minutes</value>
+  </data>
+  <data name="lbl15Minutes" xml:space="preserve">
+    <value>15 minutes</value>
+  </data>
+  <data name="lbl30Minutes" xml:space="preserve">
+    <value>30 minutes</value>
+  </data>
+  <data name="lbl45Minutes" xml:space="preserve">
+    <value>45 minutes</value>
+  </data>
+  <data name="lbl2Hours" xml:space="preserve">
+    <value>2 hours</value>
+  </data>
+  <data name="lbl4Hours" xml:space="preserve">
+    <value>4 hours</value>
+  </data>
+  <data name="lbl5Hours" xml:space="preserve">
+    <value>8 hours</value>
+  </data>
+  <data name="lbl16Hours" xml:space="preserve">
+    <value>16 hours</value>
+  </data>
+  <data name="lbl20Hours" xml:space="preserve">
+    <value>20 hours</value>
+  </data>
+  <data name="lbl24Hours" xml:space="preserve">
+    <value>24 hours</value>
+  </data>
+  <data name="lbl48Hours" xml:space="preserve">
+    <value>48 hours</value>
+  </data>
+  <data name="lbl120Hours" xml:space="preserve">
+    <value>120 hours(5d)</value>
+  </data>
+  <data name="lbl168Hours" xml:space="preserve">
+    <value>168 hours(7d)</value>
+  </data>
+  <data name="lblStartTimeLabel" xml:space="preserve">
+    <value>Start time:</value>
+  </data>
+  <data name="lbFullTest" xml:space="preserve">
+    <value>Full Test</value>
+  </data>
+  <data name="lblTimerecordLabel" xml:space="preserve">
+    <value>Date:</value>
+  </data>
+  <data name="lblValidatedParkingDateLabel" xml:space="preserve">
+    <value>Validated date :</value>
+  </data>
+  <data name="lblZoneGroupLabel" xml:space="preserve">
+    <value>Zone group</value>
+  </data>
+  <data name="lbCalculatePrice" xml:space="preserve">
+    <value>Calculate</value>
+  </data>
+  <data name="lblDays" xml:space="preserve">
+    <value>Days</value>
+  </data>
+  <data name="lblTest" xml:space="preserve">
+    <value>Test price configuration</value>
+  </data>
+  <data name="TabIdentifier" xml:space="preserve">
+    <value>Identifier</value>
+  </data>
+  <data name="lblFullTestIncrement" xml:space="preserve">
+    <value>Full test increment:</value>
+  </data>
+  <data name="lblDuration" xml:space="preserve">
+    <value>Parked time :</value>
+  </data>
+  <data name="lbAdvanceParking" xml:space="preserve">
+    <value>Advanced Parking</value>
+  </data>
+  <data name="lbShortCode" xml:space="preserve">
+    <value>Short code</value>
+  </data>
+  <data name="lbRoundingUp" xml:space="preserve">
+    <value>Rounding Up</value>
+  </data>
+  <data name="btnCancel_nolabel" xml:space="preserve">
+    <value>&lt;IMG class=&quot;button_cancel&quot; title=&quot;Cancel&quot; height=&quot;18&quot; border=&quot;0&quot; src=&quot;../../img/system/spacer.gif&quot; width=&quot;18&quot; /&gt;</value>
+  </data>
+  <data name="btnCopy_nolabel" xml:space="preserve">
+    <value>&lt;IMG class=&quot;button_copy&quot; title=&quot;Copy&quot; height=&quot;18&quot; border=&quot;0&quot; src=&quot;../../img/system/spacer.gif&quot; width=&quot;18&quot; /&gt;</value>
+  </data>
+  <data name="btnDelete_nolabel" xml:space="preserve">
+    <value>&lt;IMG class=&quot;button_trash&quot; title=&quot;Delete&quot; height=&quot;18&quot; border=&quot;0&quot; src=&quot;../../img/system/spacer.gif&quot; width=&quot;18&quot; /&gt;</value>
+  </data>
+  <data name="btnEdit_nolabel" xml:space="preserve">
+    <value>&lt;IMG class=&quot;button_edit&quot; title=&quot;Edit&quot; border=&quot;0&quot; height=&quot;18&quot; src=&quot;../../img/system/spacer.gif&quot; width=&quot;18&quot; /&gt;</value>
+  </data>
+  <data name="btnSave_nolabel" xml:space="preserve">
+    <value>&lt;IMG class=&quot;button_save&quot; title=&quot;Save&quot; height=&quot;18&quot; border=&quot;0&quot; src=&quot;../../img/system/spacer.gif&quot; width=&quot;18&quot; /&gt;</value>
+  </data>
+  <data name="Settings-CleanupSettingDefinition" xml:space="preserve">
+    <value>Clean VRNs settings</value>
+  </data>
+  <data name="Settings-Key-CleanParkingAfterDays" xml:space="preserve">
+    <value>Parkingright Vrn</value>
+  </data>
+  <data name="Settings-Key-CleanValidScanAfterDays" xml:space="preserve">
+    <value>Valid scan Vrn</value>
+  </data>
+  <data name="Settings-Key-CleanNotFoundScanAfterdays" xml:space="preserve">
+    <value>Not Found Vrn scan</value>
+  </data>
+  <data name="Settings-Key-Description-CleanParkingAfterDays" xml:space="preserve">
+    <value>Cleanup vrns on parking after x days</value>
+  </data>
+  <data name="Settings-Key-Description-CleanValidScanAfterDays" xml:space="preserve">
+    <value>Cleanup vrns on scans resulting in found rights after x days</value>
+  </data>
+  <data name="Settings-Key-Description-CleanNotFoundScanAfterdays" xml:space="preserve">
+    <value>Cleanup vrns on scans resulting in non found rights after x days</value>
+  </data>
+  <data name="btnCleanupSettings" xml:space="preserve">
+    <value>Settings - Cleanup VRN</value>
+  </data>
+
+</root>
